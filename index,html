@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cozy Shelf - Your Bookstore Haven</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#home" class="logo">The Cozy Shelf</a>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Find Your Next Great Read.</h1>
+                <p>Welcome to The Cozy Shelf, your personal haven for curated books and quiet moments. Discover worlds old and new, all from the comfort of our shelves.</p>
+                <a href="#shop" class="cta-button">Shop All Books</a>
+            </div>
+            <div class="hero-image">
+                
+                <img src="https://placehold.co/500x600/FFF8E7/5C4033?text=Cozy+Reading+Nook" alt="Illustration of a person reading in a cozy nook">
+            </div>
+        </section>
+
+        <section id="shop" class="featured-books">
+            <h2>Featured Bestsellers</h2>
+            <div class="book-grid">
+                <div class="book-card">
+                    <img src="https://placehold.co/300x450/7B2CBF/FFF8E7?text=Book+Cover" alt="Book Cover">
+                    <h3>The Midnight Library</h3>
+                    <p class="author">Matt Haig</p>
+                    <span class="price">$19.99</span>
+                </div>
+                <div class="book-card">
+                    <img src="https://placehold.co/300x450/7B2CBF/FFF8E7?text=Book+Cover" alt="Book Cover">
+                    <h3>Dune</h3>
+                    <p class="author">Frank Herbert</p>
+                    <span class="price">$22.50</span>
+                </div>
+                <div class="book-card">
+                    <img src="https://placehold.co/300x450/7B2CBF/FFF8E7?text=Book+Cover" alt="Book Cover">
+                    <h3>Where the Crawdads Sing</h3>
+                    <p class="author">Delia Owens</p>
+                    <span class="price">$18.00</span>
+                </div>
+                <div class="book-card">
+                    <img src="https://placehold.co/300x450/7B2CBF/FFF8E7?text=Book+Cover" alt="Book Cover">
+                    <h3>Atomic Habits</h3>
+                    <p class="author">James Clear</p>
+                    <span class="price">$25.00</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-us">
+            <h2>About Our Bookstore</h2>
+            <p>Founded in 2024, The Cozy Shelf was born from a simple idea: a bookstore should feel like home. We believe in the magic of physical books and the community they build. Our collection is carefully curated by passionate readers, ensuring every book on our shelf is one we truly love. Step in, grab a coffee, and get lost in a good story.</p>
+        </section>
+
+        <section id="blog" class="blog-preview">
+            <h2>From Our Blog</h2>
+            <div class="blog-grid">
+                <article class="blog-post-card">
+                    <h3>Author Spotlight: V.E. Schwab</h3>
+                    <p>We sit down with the bestselling author to discuss her latest fantasy epic, the art of world-building, and her advice for aspiring writers...</p>
+                    <a href="#" class="read-more">Read More &rarr;</a>
+                </article>
+                <article class="blog-post-card">
+                    <h3>The Best Reads for a Rainy Day</h3>
+                    <p>Nothing beats a storm outside and a good book in. Here are our top 5 picks for the perfect cozy, rainy-day companion, from thrilling mysteries to heartwarming tales...</p>
+                    <a href="#" class="read-more">Read More &rarr;</a>
+                </article>
+                <article class="blog-post-card">
+                    <h3>Book Review: 'Project Hail Mary'</h3>
+                    <p>Andy Weir does it again. A thrilling, scientific, and surprisingly heartfelt journey into the unknown. Read our full thoughts on this sci-fi masterpiece...</p>
+                    <a href="#" class="read-more">Read More &rarr;</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Get In Touch</h2>
+            <div class="contact-container">
+                <form id="contact-form" class="contact-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Visit Us</h3>
+                    <p>123 Reading Lane, Booksville, BK 54321</p>
+                    <h3>Email Us</h3>
+                    <p>hello@thecozyshelf.com</p>
+                    <div class="map-placeholder">
+                        
+                        <span>Map Placeholder</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="newsletter">
+                <h3>Subscribe to Our Newsletter</h3>
+                <p>Get the latest updates on new releases, events, and special offers.</p>
+                <form id="newsletter-form" class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Home</a> |
+                <a href="#shop">Shop</a> |
+                <a href="#blog">Blog</a> |
+                <a href="#contact">Contact</a>
+            </div>
+            <p class="copyright">&copy; 2025 The Cozy Shelf. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
